@@ -8,7 +8,7 @@ package com.mycompany.racingleaguesystem.enums;
  *
  * @author hardi
  */
-public class CarType {
+public enum CarType {
     SPORTS, SUV, TRUCK, ELECTRIC
 
     
