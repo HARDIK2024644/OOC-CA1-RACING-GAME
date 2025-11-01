@@ -18,7 +18,7 @@ public class Race {
         this.name = name;
         this.cars = new ArrayList<>();
     }
-
+    //Addding car from list of sports , SUV , Truck , Electric
     public void addCar(Car car) {
         if (cars.size() < 6) {
             cars.add(car);
@@ -26,7 +26,7 @@ public class Race {
             System.out.println("Race " + name + " already has 6 cars.");
         }
     }
-
+    //Start of race as there are different races
     public void startRace() {
         System.out.println("Race " + name + " is starting!");
         for (Car car : cars) {
