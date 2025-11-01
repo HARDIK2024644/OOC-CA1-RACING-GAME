@@ -16,7 +16,7 @@ import com.mycompany.racingleaguesystem.models.Race;
 
 public class Main {
     public static void main(String[] args) {
-        // Create 8 cars with full parameters
+        // Created 8 cars with full parameters
         Car car1 = new Car("Honda", CarType.SPORTS, 90, 85, 80, 70);
         Car car2 = new Car("Toyota", CarType.SUV, 70, 60, 75, 90);
         Car car3 = new Car("BMW", CarType.TRUCK, 60, 50, 65, 95);
@@ -26,7 +26,7 @@ public class Main {
         Car car7 = new Car("Ferrari", CarType.ELECTRIC, 75, 88, 80, 65);
         Car car8 = new Car("Jeep", CarType.SUV, 72, 62, 70, 85);
 
-        // Create races
+        // Create races as in this case we have 2 races 
         Race race1 = new Race("Desert Dash");
         Race race2 = new Race("Urban Sprint");
          race1.addCar(car1);
